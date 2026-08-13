@@ -2,3 +2,17 @@
 name = "tree-index"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "Cross-platform directory scanner and HTML index generator"
+repository = "https://github.com/rhamenator/TreeIndex"
+
+[package.metadata.wix]
+upgrade-guid = "B1B5B7B1-E17E-4A06-BCF4-1356C3650E29"
+path-guid = "421A53CB-DB21-4162-A68C-77B40E9931DF"
+license = false
+eula = false
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
