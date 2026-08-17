@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="TreeIndex logo" width="220">
+</p>
+
 # TreeIndex
 
 A safe, cross-platform successor to `dir2html`. It recursively scans regular
